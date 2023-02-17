@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessedlink</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo" width="20%">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <!-- reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="partners.html">Our Partners</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- reposnive bar open and close -->
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact Us Section Start -->
+
+    <section class="loacation">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111989.31313237658!2d77.32498792347556!3d28.699635117457326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1bb41c50fdf%3A0xe6f06fd26a7798ba!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1630495771496!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+
+            <div class="content-col">
+                <!-- <form action="https://formsubmit.co/anyangnancy@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Input Name" required>
+                    <input type="email" name="email" placeholder="Input Email" required>
+                    <input type="name" name="_subject" placeholder="Write your Message here" required>
+                    <button type="submit">Send</button>
+               </form> -->
+
+                 <form action="https://formsubmit.co/anyangnancy@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Input Name" required>
+                    <input type="email" name="email" placeholder="Input Email" required>
+                    <input type="name" name="_subject" placeholder="Write your Message here" required>
+                    <textarea id="message" rows="8" placeholder="Message"></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <button id="btn" type="submit" class="hero_btn btn" >Send Message</button>
+                </form>
+            </div>
+
+            <div class="content-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Nairobi, Kenya</h5>
+                        <!-- <p>Ghaziabad, Uttar Pradesh, IN</p> -->
+                    </span>
+                </div>
+
+                
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>US telephone:
+                            +1 (615) 295 8440</h5>
+                        <h5>Local calls in Kenya:
+                            +254 721 222 223
+                            <br>
+                            +254 704 260 451</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <p>Reach out via Email</p>
+                        <h5>Koo7812345@netzero.com</h5>
+                        <h5>Koo7812345@outlook.com</h5>
+                    </span>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Contact Us Section End -->
+
+    <!-- Footer Section Start -->
+    <section class="footer">
+        <hr>
+        <p>Checks can be mailed to:
+            ZYD Open Heart Inc.
+            C/O: Rich Gradel
+            6140S 104th Street E. Ave, Ste 700
+            Tulsa, OK 74133
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Your contributions are tax deductible. Thank you for partnering with us.</p>
+        <p>Copyright © 2023 <a href="index.html">Blessedlink</a>. All Rights Reserved</p>
+    </section>
+    <!-- Footer Section End -->
+
+</body>
+
+</html>
