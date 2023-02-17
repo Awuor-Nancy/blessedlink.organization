@@ -343,7 +343,6 @@ p {
 .testimonials {
     margin: auto;
     width: 100%;
-    /* padding-top: 20px; */
     text-align: center;
     justify-content: space-evenly;
 }
@@ -513,12 +512,14 @@ hr {
 
 .about-col p {
     padding: 15px 0 25px;
+    color: #000;
 }
 
 .btn {
     border: 1px solid #5236f4;
     background: #ca046b;
     color: #fff;
+    font-size: 15px;
 }
 
 .btn:hover {
