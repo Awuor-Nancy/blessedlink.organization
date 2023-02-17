@@ -9,7 +9,7 @@
     min-height: 100vh;
     display: flex;
     width: 100%;
-    background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/doctor.jpg);
+    background-image: url(img/doctor.jpg);
     background-position: center;
     background-size: cover;
     /* position: relative; */
