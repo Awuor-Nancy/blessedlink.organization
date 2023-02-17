@@ -19,6 +19,7 @@ nav {
     display: flex;
     padding: 0px;
     margin-top: 20px;
+    position: fixed;
     /* justify-content: space-between; */
     /* align-items: center; */
 }
