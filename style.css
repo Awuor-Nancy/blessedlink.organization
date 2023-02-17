@@ -327,6 +327,7 @@ p {
 
 .facilities-col p {
     padding: 0;
+    color: #000;
 }
 
 .facilities-col h3 {
@@ -377,7 +378,7 @@ p {
 }
 
 .testimonials-col .fa {
-    color: #24f8c7;
+    /* color: #24f8c7; */
 }
 
 @media (max-width: 700px) {
