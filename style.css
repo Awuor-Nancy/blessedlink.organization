@@ -252,11 +252,15 @@ p {
 }
 
 .campus-col {
-    position: relative;
+    /* position: relative; */
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     overflow: hidden;
+}
+
+.campus-col strong{
+    font-size: 22px;
 }
 
 .campus-col img {
@@ -334,6 +338,7 @@ p {
     text-align: left;
     margin-top: 16px;
     margin-bottom: 15px;
+    color: #000;
 }
 
 /* Facilities Section End */
@@ -376,10 +381,6 @@ p {
 .testimonials-col h3 {
     margin-top: 15px;
     text-align: left;
-}
-
-.testimonials-col .fa {
-    /* color: #24f8c7; */
 }
 
 @media (max-width: 700px) {
@@ -426,8 +427,8 @@ p {
 
 footer {
     background-color: #121315;
-    color: #a7a7a7;
-    font-size: 16px;
+    color: #ca046b;
+    font-size: 18px;
   }
   footer * {
     font-family: "Poppins", sans-serif;
@@ -453,7 +454,7 @@ footer {
   h3 {
     width: 100%;
     text-align: left;
-    color: white;
+    color: #ca046b;
     font-size: 1.4em;
     white-space: nowrap;
   }
@@ -466,7 +467,7 @@ footer {
     margin-top: 0.8em;
   }
   ul li a {
-    color: #a7a7a7;
+    color: #fff;
     text-decoration: none;
   }
   ul li a:hover {
@@ -496,7 +497,7 @@ footer {
   }
   .social i {
     color: #ca046b;
-    padding: 40px;
+    padding: 20px;
   }
 
   .social i:hover{
@@ -527,35 +528,12 @@ footer {
     .row.primary {
       grid-template-columns: 1fr;
     }
+    .footer{
+        text-align: center;
+    }
   
   }
 
-
-
-/* .footer a:hover {
-    color: #000;
-}
-
-.icons .fab {
-    color: #000;
-    margin: 5px;
-    cursor: pointer;
-    padding: 10px 0;
-    font-size: 30px;
-    justify-content: space-evenly;
-}
-
-.icons .fab:hover{
-    color: #ca046b;
-}
-
-.fa-heart {
-    color: #000;
-} */
-
-/* Footer Section End */
-
-/* About Us Section Start */
 
 .Sub-header {
     height: 50vh;
