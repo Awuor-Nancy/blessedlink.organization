@@ -8,6 +8,8 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="donate.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+
 
 </head>
 <body>
@@ -20,15 +22,15 @@
 
             <div class="col">
 
-                <h3 class="title">billing address</h3>
+                <h3 class="title">Payment Details</h3>
 
                 <div class="inputBox">
                     <span>full name :</span>
-                    <input type="text" placeholder="john deo">
+                    <input type="text" placeholder="Beverly Babu">
                 </div>
                 <div class="inputBox">
                     <span>email :</span>
-                    <input type="email" placeholder="example@example.com">
+                    <input type="email" placeholder="Input Email">
                 </div>
                 <div class="inputBox">
                     <span>address :</span>
@@ -51,49 +53,20 @@
                 </div>
 
             </div>
-
-            <div class="col">
-
-                <h3 class="title">payment</h3>
-
-                <div class="inputBox">
-                    <span>cards accepted :</span>
-                    <img src="images/card_img.png" alt="">
-                </div>
-                <div class="inputBox">
-                    <span>name on card :</span>
-                    <input type="text" placeholder="mr. john deo">
-                </div>
-                <div class="inputBox">
-                    <span>credit card number :</span>
-                    <input type="number" placeholder="1111-2222-3333-4444">
-                </div>
-                <div class="inputBox">
-                    <span>exp month :</span>
-                    <input type="text" placeholder="january">
-                </div>
-
-                <div class="flex">
-                    <div class="inputBox">
-                        <span>exp year :</span>
-                        <input type="number" placeholder="2022">
-                    </div>
-                    <div class="inputBox">
-                        <span>CVV :</span>
-                        <input type="text" placeholder="1234">
-                    </div>
-                </div>
-
-            </div>
     
         </div>
-
-        <input type="submit" value="proceed to checkout" class="submit-btn">
+          <div id="paypal-button-container">
+            <input type="submit" value="proceed to pay">
+        </div>
+      
 
     </form>
+    <!-- <div id="paypal-button-container">
+        <input type="submit" value="proceed to pay">
+    </div> -->
 
 </div>  
-
+ <!-- ----------------- Footor starts here ------- -->
 <footer>
     <div class="row primary">
       <div class="column-about">
@@ -107,7 +80,11 @@
 
       <p>
         IRS EIN-47-1065998.
-      </p>
+      </p> <br>
+
+      <i>Nairobi, Kenya</i>
+      <p>Email: Koo7812345@outlook.com</p>
+      <p>Email2: Koo7812345@netzero.com</p>
     
       <div class="social">
         <i class="fab fa-facebook-f"></i>
@@ -115,6 +92,7 @@
         <i class="fab fa-twitter"></i>
         <i class="fab fa-linkedin"></i>
       </div>
+      
     </div>
     
     <div class="column links">
@@ -126,13 +104,17 @@
 
         <p>6140S 104th Street E. Ave, Ste 700</p>
     
-        <p>Tulsa, OK 74133</p>
+        <p>Tulsa, OK 74133</p> <br>
+
+        <p>US telephone: +1 (615) 295 8440</p>
+        <p>Local calls in Kenya: +254 721 222 223
+            <br>
+            +254 704 260 451</p>
     
     </div>
     
     
     <div class="column links">
-      <h3>Some Links</h3>
        <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
@@ -143,11 +125,10 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-    
     <div class="column subscribe">
      <h3>Subscribe To Our Newsletter</h3>
       <div>
-        <form action="https://formsubmit.co/anyangnancy@gmail.com" method="POST">
+        <form action="https://formsubmit.co/anyangnancy@gmail.com, Koo7812345@outlook.com" method="POST">
         <input type="email" name="email" placeholder="Input Email" required>
         <input type="hidden" name="_captcha" value="false">
         <button id="btn" type="submit" class="hero_btn btn" >Send Message</button>
@@ -172,6 +153,8 @@
        <p>Copyright © 2023 <a href="index.html" style="text-decoration: none; color: #ca046b;">Blessedlink.org</a> All Rights Reserved </p>
     </div>
     </footer>
+
+    <script src="donate.js"></script>
     
 </body>
 </html>

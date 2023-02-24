@@ -78,12 +78,12 @@
   filter: drop-shadow(0 0 1px #000);
 }
 
-.container form .submit-btn{
+#paypal-button-container input{
   width: 100%;
   padding:12px;
   font-size: 17px;
   background: #7171ff;
-  color:#fff;
+  color:#000;
   margin-top: 5px;
   cursor: pointer;
 }

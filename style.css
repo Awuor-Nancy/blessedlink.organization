@@ -514,9 +514,8 @@ footer {
   }
   
   .footer-menu a{
-    color: #cfd2d6;
+    color: #fff;
     padding: 6px;
-  
     text-decoration: none;
   }
  
@@ -528,12 +527,12 @@ footer {
     .row.primary {
       grid-template-columns: 1fr;
     }
-    .footer{
+    .footer-menu a{
         text-align: center;
+        display: flex;
     }
   
   }
-
 
 .Sub-header {
     height: 50vh;
