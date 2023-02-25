@@ -41,7 +41,7 @@ nav .logo img{
 }
 
 nav .fab {
-    font-size: 42px;
+    font-size: 82px;
 
 }
 
@@ -78,7 +78,7 @@ nav .fab {
     content: '';
     width: 0%;
     height: 2px;
-    background: #5236f4;
+    background: #6c6cf5;
     display: flex;
     margin: auto;
     transition: 0.5s;
@@ -127,7 +127,8 @@ nav .fab {
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 12px 34px;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bolder;
     background: #ca046b;
     cursor: pointer;
     text-decoration: none;
@@ -241,6 +242,7 @@ p {
     font-weight: 600;
     margin: 10px 0;
     line-height: 1.1;
+   
 }
 
 .course-col:hover {
@@ -756,7 +758,7 @@ footer {
 .content-col div h5 {
     font-size: 20px;
     margin-bottom: 5px;
-    color: #555;
+    color: #000;
     font-weight: 400;
 }
 
@@ -764,7 +766,7 @@ footer {
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     outline: none;
     box-sizing: border-box;
 }
