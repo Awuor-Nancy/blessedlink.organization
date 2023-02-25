@@ -17,18 +17,27 @@
 }
 
 nav {
-    display: flex;
+    /* display: flex;
     padding: 0px;
     margin-top: 20px;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    justify-content: space-evenly; */
+
+    display: flex;
+
+  justify-content: space-around;
+
+  /* background-color: teal; */
+
+  font-family: "Montserrat", sans-serif;
+
 }
 
 nav .logo img{
     text-decoration: none;
     font-size: 24px;
-    color: #fff3f3;
     font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 nav .fab {
@@ -36,10 +45,12 @@ nav .fab {
 
 }
 
-/* .nav-links {
-    flex: 1;
-    text-align: right;
-} */
+.nav-links {
+    display: flex;
+
+    justify-content: space-around;
+  
+}
 
 .nav-links ul li {
     display: inline-block;
@@ -47,12 +58,20 @@ nav .fab {
     padding: 5px;
     position: static;
     text-transform: uppercase;
+    
 }
 
 .nav-links ul li a {
     text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+    color: #ca046b;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 2px;
+  
 }
 
 .nav-links ul li::after {
@@ -60,13 +79,14 @@ nav .fab {
     width: 0%;
     height: 2px;
     background: #5236f4;
-    display: block;
+    display: flex;
     margin: auto;
     transition: 0.5s;
 }
 
 .nav-links ul li:hover::after {
-    width: 80%;
+    width: 100%;
+    color: #fff;
 }
 
 .text_box {
@@ -245,14 +265,14 @@ p {
 /* Campus Section Start */
 
 .campus {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+
 }
 
 .campus-col {
-    /* position: relative; */
+    position: relative;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -261,6 +281,10 @@ p {
 
 .campus-col strong{
     font-size: 22px;
+}
+
+.campus-col p{
+    color: #000;
 }
 
 .campus-col img {
@@ -306,10 +330,9 @@ p {
 /* Facilities Section Start */
 
 .facilities {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
 }
 
 .facilities-col {
@@ -426,15 +449,17 @@ p {
 
 
 footer {
-    background-color: #121315;
-    color: #ca046b;
-    font-size: 18px;
+    background: linear-gradient(#ca046b, #2a8ded);
+    color: #fff;
+   
   }
   footer * {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     border: none;
     outline: none;
+    font-size: 19px;
+    font-weight: bolder;
   }
   .row {
     padding: 1em 1em;
@@ -454,8 +479,8 @@ footer {
   h3 {
     width: 100%;
     text-align: left;
-    color: #ca046b;
-    font-size: 1.4em;
+    color: #2a8ded;
+    font-size: 1.3em;
     white-space: nowrap;
   }
   ul {
@@ -469,6 +494,8 @@ footer {
   ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bolder;
+
   }
   ul li a:hover {
     color: #2a8ded;
@@ -492,7 +519,7 @@ footer {
   }
   div.social {
     justify-content: space-evenly;
-    font-size: 2.4em;
+    font-size: 24px;
     margin-top: 0.5em;
   }
   .social i {

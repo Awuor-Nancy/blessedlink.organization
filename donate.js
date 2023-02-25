@@ -1,9 +1,10 @@
 paypal.Buttons({
     createOrder: function(data, actions) {
+// This function sets up the details of the transaction, amount and line item details
       return actions.order.create({
         purchase_units: [{
           amount: {
-            value: '10.00'
+            value: '200.00'
           }
         }]
       });
