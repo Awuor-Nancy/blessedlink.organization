@@ -458,7 +458,7 @@ ul {
 }
 .footer-section {
     background: linear-gradient(#ca046b, #6c6cf5);
-    /* position: relative; */
+    position: relative;
     margin: auto;
 }
 .footer-cta {
