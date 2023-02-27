@@ -605,18 +605,7 @@ ul {
 .copyright-text p a{
   color: #7171ee;
 }
-.footer-menu li {
-  display: inline-block;
-  margin-left: 20px;
-}
-.footer-menu li:hover a{
-  color: #7171ee;
-}
-.footer-menu li a {
-  font-size: 20px;
-  color: #fff;
-  text-decoration: none;
-}
+
 /* Footer Section End */
 
 /* About Us Section Start */
