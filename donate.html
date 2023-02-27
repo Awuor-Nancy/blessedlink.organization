@@ -14,112 +14,166 @@
 <body>
   <script src="https://www.paypal.com/sdk/js?client-id=AaN94vdzzxI3-MmIqPVKkU-hQDBcbO8Bvrj6WCQIJ0cDemcLc9KMZRq6PSZT81y8P38ReEWe25RNq4ve&currency=USD"></script>
 
-<div class="container">
-
-  <div class="donate-intro">
-    <h1 style="color: #fff; text-align: center; padding: 30px;">Donate to Zaidi Ya Dreams OpenHeart.Inc.</h1>
-  </div>
-
-    <form action="">
-
-        <div id="paypal-button-container"></div>
-    
-    </form>
-
-    <h1 style="color: #fff; text-align: center; padding: 30px;">Thank you for your prayers and support.</h1>
+  <section class="Sub-header">
+    <a href="index.html" id="arrow">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </a>
   
-    <!-- <div id="paypal-button-container">
-        <input type="submit" value="proceed to pay">
-    </div> -->
+      <nav  style="background-color: #000;">
+          <a href="index.html" class="logo">
+              <img src="img/logo.png" alt="logo" width="25%">
+          </a>
+          <div class="nav-links" id="navLinks">
+              <!-- Reposnive bar open and close -->
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="partners.html">Partners</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="timeline.html">Timeline</a></li>
+                  <li><a href="donate.html">Donate</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+          <!-- Reposnive bar open and close -->
+      </nav>
+      <h1>Support Us and Donate</h1>
+  </section>
+
+
+<!-- <div class="container">
+    <form action=""> -->
+
+      <div class="paypal-container">
+        <div id="paypal-button-container"></div>
+      </div>
+    
+    <!-- </form> -->
+
+    <h1 style="color: #ca046b; text-align: center; padding: 15px;">Thank you for your prayers and support.</h1>
 
 </div>  
  <!-- ----------------- Footor starts here ------- -->
-<footer>
-    <div class="row primary">
-      <div class="column-about">
-    
-      <h3>Blessed Link Zaidi Ya Dreams OpenHeart Inc. <br> is a 501 c(3) Non -profit.</h3>
-    
-       <p>
-        Your contributions are tax deductible. <br> Thank you for partnering with us.
-      </p>
-      <br>
-
-      <p>
-        IRS EIN-47-1065998.
-      </p> <br>
-
-      <i>Nairobi, Kenya</i>
-      <p>Email: Koo7812345@outlook.com</p>
-      <p>Email2: Koo7812345@netzero.com</p>
-    
-      <div class="social">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-linkedin"></i>
+ <footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Nairobi, Kenya</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>US Tel: +1 (615) 295 8440</span> <br>
+                          <span>Kenya Tel: +254 721 222 223</span> <br>
+                          <span>Tel: +254 704 260 451</span>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>Email: Koo7812345@outlook.com</span> <br>
+                          <span>Email2: Koo7812345@netzero.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      
-    </div>
-    
-    <div class="column links">
-        <h3>Checks can be mailed to:</h3>
-    
-        <p>ZYD Open Heart Inc.</p>
-      
-        <p>C/O: Rich Gradel</p>
-
-        <p>6140S 104th Street E. Ave, Ste 700</p>
-    
-        <p>Tulsa, OK 74133</p> <br>
-
-        <p>US telephone: +1 (615) 295 8440</p>
-        <p>Local calls in Kenya: +254 721 222 223
-            <br>
-            +254 704 260 451</p>
-    
-    </div>
-    
-    
-    <div class="column links">
-       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="partners.html">Partners</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="column subscribe">
-     <h3>Subscribe To Our Newsletter</h3>
-      <div>
-        <form action="https://formsubmit.co/Koo7812345@netzero.com" method="POST">
-        <input type="email" name="email" placeholder="Input Your Email" required>
-        <input type="hidden" name="_captcha" value="false">
-        <button id="btn" type="submit" class="hero_btn btn" >Send Message</button>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>Checks can be mailed to:</p>
+  
+                          <p>ZYD Open Heart Inc.</p>
+                        
+                          <p>C/O: Rich Gradel</p>
+              
+                          <p>6140S 104th Street E. Ave,  <br> Ste 700</p>
+                      
+                          <p>Tulsa, OK 74133</p> 
+                      </div>
+                    
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="partners.html">Partners</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="timeline.html">Timeline</a></li>
+                          <li><a href="donate.html">Donate</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe To Our Newsletter</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="text" placeholder="Email Address">
+                              <button><i class="fab fa-telegram-plane"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-    
-    </div>
-    
-    </div>
-    
-    <div class="row copyright">
-      <div class="footer-menu">
-    
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="partners.html">Partners</a>
-        <a href="blog.html">Blog</a>
-        <a href="timeline.html">Timeline</a>
-        <a href="donate.html">Donate</a>
-        <a href="contact.html">Contact</a>
-    
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2023, All Rights Reserved <a href="https://bejewelled-puppy-20645e.netlify.app/index.html">Blessedlink</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="partners.html">Partners</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="timeline.html">Timeline</a></li>
+                          <li><a href="donate.html">Donate</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
       </div>
-       <p>Copyright © 2023 <a href="index.html" style="text-decoration: none; color: #ca046b;">Blessedlink.org</a> All Rights Reserved </p>
-    </div>
-    </footer>
+  </div>
+</footer>
 
     <script src="donate.js"></script>
     
