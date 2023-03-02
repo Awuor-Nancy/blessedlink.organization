@@ -151,17 +151,17 @@ body {
     background: rgba(211,207,205,1);
     border-radius: 7px;
     font-size: 35px;
-    color: #fff;
+    color: #ca046b;
 }
 .main-timeline .title{
     font-size: 35px;
     font-weight: bold;
-    color: rgba(211,207,205,1);
+    color: #000;
     margin-top: 0;
 }
 .main-timeline .description{
     font-size: 20px;
-    color: #333;
+    color: #000;
     text-align: justify;
 }
 .main-timeline .icon{
