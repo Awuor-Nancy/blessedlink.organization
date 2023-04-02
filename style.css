@@ -294,6 +294,9 @@ p {
     width: 100%;
     display: block;
 }
+.campus-col, strong{
+    font-size: 20px;
+}
 
 .layer {
     background: transparent;
