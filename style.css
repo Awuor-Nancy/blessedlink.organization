@@ -381,14 +381,16 @@ p {
 }
 
 .testimonials-col {
-    flex-basis: 44%;
+    /* flex-basis: 44%; */
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
     background: #fff3f3;
     padding: 25px;
     cursor: pointer;
-    /* display: flex; */
+    justify-content: space-between;
+    margin: 25px;
+
 }
 
 .testimonials-col img {
@@ -405,7 +407,7 @@ p {
 }
 
 .testimonials-col h3 {
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: left;
 }
 
